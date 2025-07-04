@@ -42,7 +42,7 @@ class LangGraphRecruitingAgent:
     def __init__(self):
         self.llm = ChatGoogleGenerativeAI(
             model="gemini-2.0-flash-001",
-            google_api_key='AIzaSyDGbASlk-JtYMTT5S_RdLBPIpYPGlOlkWg',
+            google_api_key='api_key',
             temperature=0.1
         )
 
